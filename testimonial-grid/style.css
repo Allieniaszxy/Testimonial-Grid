@@ -12,6 +12,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(0, 0%, 81%);
   font-size: 13px;
+  /* color: white; */
 }
 .container {
   width: 85%;
@@ -51,7 +52,38 @@ body {
 }
 .grid-items {
   padding: 30px;
+  color: hsl(214, 17%, 92%);
 }
 .title {
   display: flex;
+  align-items: center;
+  height: 20px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.title img {
+  width: 2rem;
+  border-radius: 50%;
+}
+.name h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.about p {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h6 {
+  font-size: 12px;
+}
+.bg {
+  color: hsl(219, 29%, 14%);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
